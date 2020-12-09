@@ -1,0 +1,113 @@
+<div class="form-group">
+            <label for="passportnumber">passportnumber: <sup>*</sup></label>
+            <input type="text" name="passportnumber" class="form-control form-control-lg <?php echo (!empty($data['passportnumber_err'])) ? 'is-invalid' : ''; ?>" value="<?php echo $data['passportnumber']; ?>">
+            <span class="invalid-feedback"><?php echo $data['passportnumber_err']; ?></span>
+          </div>
+
+          <div id="wrapper">
+            <label for="passportissuedate">passport issue date :</label>
+            <input type="date" id="passportissuedate" name="passportissuedate">
+          </div>
+          
+          <div id="wrapper">
+            <label for="passportexpirydate">passport expiry date :</label>
+            <input type="date" id="passportexpirydate" name="passportexpirydate">
+          </div>
+
+          <div class="form-group">
+            <label for="passportnumber">passport number: <sup>*</sup></label>
+            <input type="text" name="passportnumber" class="form-control form-control-lg <?php echo (!empty($data['passportnumber_err'])) ? 'is-invalid' : ''; ?>" value="<?php echo $data['passportnumber']; ?>">
+            <span class="invalid-feedback"><?php echo $data['passportnumber_err']; ?></span>
+          </div>
+
+          <div id="wrapper">
+            <label for="passportissuedate">passport issue date :</label>
+            <input type="date" id="passportissuedate" name="passportissuedate">
+          </div>
+
+          <div id="wrapper">
+            <label for="passportexpirydate">passport expiry date :</label>
+            <input type="date" id="passportexpirydate" name="passportexpirydate">
+          </div>
+
+          <div id="wrapper">
+            <label for="already_studied_in_china">already studied in china</label>
+            <p><input type="radio" id="yes" name="already_studied_in_china">yes</input></p>
+            <p><input type="radio" id="no" name="already_studied_in_china">no</input></p>
+          </div>
+
+          <div class="form-group">
+            <label for="City_University_Major">City_University_Major: <sup>*</sup></label>
+            <input type="text" name="City_University_Major" class="form-control form-control-lg <?php echo (!empty($data['City_University_Major_err'])) ? 'is-invalid' : ''; ?>" value="<?php echo $data['City_University_Major']; ?>">
+            <span class="invalid-feedback"><?php echo $data['City_University_Major_err']; ?></span>
+          </div>
+
+          <div class="form-group">
+            <label for="father_first_name">father first name: <sup>*</sup></label>
+            <input type="text" name="father_first_name" class="form-control form-control-lg <?php echo (!empty($data['father_first_name_err'])) ? 'is-invalid' : ''; ?>" value="<?php echo $data['father_first_name']; ?>">
+            <span class="invalid-feedback"><?php echo $data['father_first_name_err']; ?></span>
+          </div>
+
+          <div class="form-group">
+            <label for="father_last_name">father last name: <sup>*</sup></label>
+            <input type="text" name="father_last_name" class="form-control form-control-lg <?php echo (!empty($data['father_last_name_err'])) ? 'is-invalid' : ''; ?>" value="<?php echo $data['father_last_name']; ?>">
+            <span class="invalid-feedback"><?php echo $data['father_last_name_err']; ?></span>
+          </div>
+
+
+
+          <div class="form-group">
+            <label for="father_occupation">father_occupation: <sup>*</sup></label>
+            <input type="text" name="father_occupation" class="form-control form-control-lg <?php echo (!empty($data['father_occupation_err'])) ? 'is-invalid' : ''; ?>" value="<?php echo $data['father_occupation']; ?>">
+            <span class="invalid-feedback"><?php echo $data['father_occupation_err']; ?></span>
+          </div>
+
+          <div class="form-group">
+            <label for="father_phone_number">father_phone_number: <sup>*</sup></label>
+            <input type="text" name="father_phone_number" class="form-control form-control-lg <?php echo (!empty($data['father_phone_number_err'])) ? 'is-invalid' : ''; ?>" value="<?php echo $data['father_phone_number']; ?>">
+            <span class="invalid-feedback"><?php echo $data['father_phone_number_err']; ?></span>
+          </div>
+          <div class="form-group">
+            <label for="mother_last_name">mother_first_name: <sup>*</sup></label>
+            <input type="text" name="mother_last_name" class="form-control form-control-lg <?php echo (!empty($data['mother_last_name_err'])) ? 'is-invalid' : ''; ?>" value="<?php echo $data['mother_last_name']; ?>">
+            <span class="invalid-feedback"><?php echo $data['mother_last_name_err']; ?></span>
+          </div>
+          <div class="form-group">
+            <label for="mother_first_name">mother_first_name: <sup>*</sup></label>
+            <input type="text" name="mother_first_name" class="form-control form-control-lg <?php echo (!empty($data['mother_first_name_err'])) ? 'is-invalid' : ''; ?>" value="<?php echo $data['mother_first_name']; ?>">
+            <span class="invalid-feedback"><?php echo $data['mother_first_name_err']; ?></span>
+          </div>
+
+          <div class="form-group">
+            <label for="mother_occupation">mother_occupation: <sup>*</sup></label>
+            <input type="text" name="mother_occupation" class="form-control form-control-lg <?php echo (!empty($data['mother_occupation_err'])) ? 'is-invalid' : ''; ?>" value="<?php echo $data['mother_occupation']; ?>">
+            <span class="invalid-feedback"><?php echo $data['mother_occupation_err']; ?></span>
+          </div>
+
+          <div class="form-group">
+            <label for="mother_phone_number">mother_phone_number: <sup>*</sup></label>
+            <input type="text" name="mother_phone_number" class="form-control form-control-lg <?php echo (!empty($data['mother_phone_number_err'])) ? 'is-invalid' : ''; ?>" value="<?php echo $data['mother_phone_number']; ?>">
+            <span class="invalid-feedback"><?php echo $data['mother_phone_number_err']; ?></span>
+          </div>
+          <div id="wrapper">
+          <label for="ep_background_file">Please Download the Following File, Fill it And upload It Again *</label>
+          <a href="https://drive.google.com/file/d/1kEYud7H0oOPNBa49ZbAfBPtlGQ4ut0e8/view?usp=sharing"></a>
+          <input type="file" id="ep_background_file" name="ep_background_file"> 
+          </div>
+          <div class="form-group">
+            <label for="language_certaficate">language_certaficate: <sup>*</sup></label>
+            <input type="text" name="language_certaficate" class="form-control form-control-lg <?php echo (!empty($data['language_certaficate_err'])) ? 'is-invalid' : ''; ?>" value="<?php echo $data['mother_phone_number']; ?>">
+            <span class="invalid-feedback"><?php echo $data['language_certaficate_err']; ?></span>
+          </div>
+          <div id="wrapper">
+            <label for="degree">Study Plan Degree</label>
+            <p><input type="radio" id="Bachelor" name="degree">Bachelor</input></p>
+            <p><input type="radio" id="Master" name="degree">Master</input></p>
+            <p><input type="radio" id="Phd" name="degree">Pgd</input></p>
+            <p><input type="radio" id="nodegree" name="degree">No degree 'chinese Language'</input></p>
+          </div>
+          <label for="majors">please list 3 majors <sup>*</sup></label>
+            <input type="text" name="majors" class="form-control form-control-lg <?php echo (!empty($data['majors_err'])) ? 'is-invalid' : ''; ?>" value="<?php echo $data['majors']; ?>">
+            <span class="invalid-feedback"><?php echo $data['majors_err']; ?></span>
+          </div>
+
